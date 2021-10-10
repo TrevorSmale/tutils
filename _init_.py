@@ -12,15 +12,28 @@ bl_info = {
         "description" : "Utility Panel",
         "blender" : (2, 80, 0),
         "version" : (0, 0, 1,),
-        "location" : "view3d",
+        "location" : "view3D",
         "warning" : "",
         "category" : "Object"
 
     }
 
+import bpy
+
+#need to load in class name from 'OP'
+from . tutils_op import 
+
+#need to load in class name from 'PT panel'
+from . tutils_pnl import 
+
+#define classes again
+classes
+
 def register():
-    ...
+    for c in classes:
+        bpy.utils.register_class(c)
 
 def unregister():
-    ...
+    for c in classes:
+        bpy.utils.register_class(c)   ...
 
