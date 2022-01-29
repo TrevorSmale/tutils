@@ -10,7 +10,7 @@ bl_info = {
         "name" : "tutils",
         "author" : "Trevor Smale",
         "description" : "Utility Panel",
-        "blender" : (2, 80, 0),
+        "blender" : (3, 00, 0),
         "version" : (0, 0, 1,),
         "location" : "view3D",
         "warning" : "",
